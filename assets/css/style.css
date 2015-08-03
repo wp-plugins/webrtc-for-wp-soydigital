@@ -1,0 +1,136 @@
+/* CSS Document */
+
+/*Estilos personalizados*/
+
+#webRTCContainer.visible {
+
+background-repeat: no-repeat;
+
+background-attachment: scroll;
+
+background-position: center center;
+
+background-image: url(http://www.soydigital.com/images/webrtc-demo-iframe.png);
+
+background-size: 278px 230px;
+
+height: 200px; width: 250px;
+
+/*left: 80%; top: 25%;*/
+
+/*position: absolute;*/
+
+z-index: 9999999999;
+
+}
+
+#webRTCContainer.hidden {
+
+background-repeat: repeat;
+
+background-attachment: scroll;
+
+background-position: 0 0;
+
+background-color: transparent;
+
+height: auto; width: auto;
+
+position: absolute;
+
+top: -50%; left: -50%;
+
+}
+#webRTCContainer input{ font-size:inherit;}
+#webRTCContainer input.hidden,
+
+#webRTCContainer div.hidden { display: none; }
+
+#webRTCContainer input.visible,
+
+#webRTCContainer div.visible { display: block; }
+
+#webRTCContainer #dialerWebRTC_01 { padding-left: 160px; padding-top: 100px;
+
+display: block; }
+
+#webRTCContainer #dialerWebRTC_02 { padding-left: 165px; padding-top: 80px;
+
+display: none; }
+
+#webRTCContainer #dialerWebRTC_01 img { cursor: pointer; }
+
+#webRTCContainer #dialerWebRTC_01.hidden,
+
+#webRTCContainer #dialerWebRTC_02.hidden { display: none; }
+
+#webRTCContainer #dialerWebRTC_01.visible,
+
+#webRTCContainer #dialerWebRTC_02.visible { display: block; }
+
+.webRTCButton {
+
+margin: 0 !important;
+
+border-style: outset !important;
+
+border-width: 2px !important;
+
+width: 23px !important; height: 15px !important;
+
+font-size: 8px !important;
+
+font-weight: bold !important;
+
+padding: 1px !important;
+
+cursor: pointer !important;
+
+background-color:#CCC  !important;
+
+color:#000  !important;
+
+}
+div#dialerWebRTC_02 br{ height:0px; width:0px; position:relative; display:block;}
+
+
+.webRTCButtonHangUp {
+
+background-image:
+
+url(https://panel.virtualcenter360.es/img/icons/webRTC/hangUp.png);
+
+background-size: 18px 12px;
+
+}
+
+#loaderGIF {
+
+position: absolute;
+
+top: 0; left: 0;
+
+width: 100%; height: 100%;
+
+display: block;
+
+background-color: rgba(0,0,0,.5);
+
+/*background: #C0C0C0;*/
+
+background-image:
+
+url(https://panel.virtualcenter360.es/img/icons/webRTC/loadinfo.gif);
+
+background-repeat: no-repeat;
+
+background-position: center;
+
+background-size:32px 32px;
+
+z-index: 99999999999;
+
+}
+
+
+
