@@ -1,0 +1,77 @@
+# Copyright (C) 2015 Team Yoast
+# This file is distributed under the GPL v3.
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress SEO 1.7.3.2\n"
+"Report-Msgid-Bugs-To: https://github.com/yoast/wordpress-seo/issues\n"
+"POT-Creation-Date: 2015-02-23 14:00:21+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-08-03 22:18+0100\n"
+"Last-Translator: Carlos Herrera <hi@carlos-herrera.com.com>\n"
+"Language-Team: Carlos Herrera <hi@carlos-herrera.com.com>\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: digital-rtc.php:81
+msgid "Easily add Digital-RTC code on your web"
+msgstr "Agrega Facilmente el código Digital-RTC en tu web"
+
+#: digital-rtc.php:175
+msgid "To set up you must go to Settings"
+msgstr "Para configurar debes ir a Ajustes"
+
+#: digital-rtc.php:175 and 232
+msgid "Set WebRTC for Wordpress SoyDigital"
+msgstr "Configurar WebRTC para Wordpress de SoyDigital"
+
+#: digital-rtc.php:227
+msgid "Saved Data"
+msgstr "Datos Guardados Correctamente"
+
+#: digital-rtc.php:242
+msgid "SoyDigital Customer ID"
+msgstr "ID de cliente de SoyDigital"
+
+#: digital-rtc.php:244
+msgid "You must register yourself in SoyDigital for a customer ID"
+msgstr "Debes darte de Alta en SoyDigital para obtener un Id de cliente, debes hacer"
+
+#: digital-rtc.php:244
+msgid "click here to register"
+msgstr "click aqui para registrarte"
+
+#: digital-rtc.php:251
+msgid "Save"
+msgstr "Guardar"
+
+#: digital-rtc.php:247
+msgid "Configure Widget"
+msgstr "Configurar el Widget"
+
+#: digital-rtc.php:250
+msgid "Background image url"
+msgstr "Imagen de fondo para el widget"
+
+#: digital-rtc.php:253
+msgid "You can also add it to a single page by adding the shortcode in content"
+msgstr "Tambien puedes agregarlo a una sola página agregando en su contenido el shortcode"
+
+#: digital-rtc.php:265
+msgid "Other. Put URL"
+msgstr "Otro, Indica la URL"
+
+#: digital-rtc.php:263
+msgid "Powered by"
+msgstr "Plugin desarrollado por"
+
+#: digital-rtc.php:263
+msgid "for"
+msgstr "para"
