@@ -8,7 +8,7 @@
 
 /*
 
-Plugin Name: WebRTC para Wordpress de SoyDigital
+Plugin Name: WebRTC para WP de SoyDigital
 
 Plugin URI: http://carlos-herrera.com
 
@@ -74,7 +74,7 @@ class digital_rtc extends WP_Widget {
 
 		// Widget name will appear in UI
 
-		__('Digital-RTC Widget', 'd_rtc'),
+		__('To receive calls you need to sign on the service in www.soydigital.com','d_rtc'),
 
 		// Widget description
 
@@ -172,7 +172,7 @@ class digital_rtc extends WP_Widget {
 
 		</p>
 
-		<p><?php echo __('To set up you must go to Settings','d_rtc').' > <a href="options-general.php?page=digital_rtc">'.__('Set WebRTC for Wordpress SoyDigital','d_rtc').'</a>'; ?></p>
+		<p><?php echo __('To set up you must go to Settings','d_rtc').' > <a href="options-general.php?page=digital_rtc">'.__('Set WebRTC for WP SoyDigital','d_rtc').'</a>'; ?></p>
 
 		<?php 
 
@@ -232,7 +232,7 @@ register_activation_hook(__FILE__,'digital_rtc_options');
 
 					<div class="wrap">
 
-						<h2>'.__('Set WebRTC for Wordpress SoyDigital','d_rtc').'</h2>
+						<h2>'.__('Set WebRTC for WP SoyDigital','d_rtc').'</h2>
 
 						<hr/>
 
@@ -342,7 +342,7 @@ add_action( 'widgets_init', 'wpb_load_widget' );
 
 function  menu_plugin_digital_rtc(){
 
-   add_submenu_page("options-general.php","Digital-RTC", __('Set WebRTC for Wordpress SoyDigital','d_rtc'), 10, "digital_rtc", "admin_zone");
+   add_submenu_page("options-general.php","Digital-RTC", __('Set WebRTC for WP SoyDigital','d_rtc'), 10, "digital_rtc", "admin_zone");
 
 }
 
