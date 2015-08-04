@@ -1,4 +1,4 @@
-=== WebRTC for Wordpress SoyDigital ===
+=== WebRTC for WP SoyDigital ===
 Contributors: cehojac
 Donate link: http://carlos-herrera.com/
 Tags: WebRTC, html5 WebRTC, Web-RTC,SoyDigital,Soy Digital, Llamadas RTC
@@ -8,11 +8,13 @@ Stable tag: 4.2.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Easily insert your Digital SoyDigital-RTC code with this plugin, widget or by shotrcode
+WebRTC call button easily include with this plugin, widget or via shortcode
 
 == Description ==
 
-This plugin generated for SoyDigital Network provides users of Wordpress to insert the code of your RTC service call, you can set from the control panel. You can insert it as like a widget or with shortcode [digital_rtc] within content pages and post
+WebRTC button to enable your users call you directly from the web. With one clik will call you across the web browser and you receive a call on your landline o cell phone. WebRTC call button easily include with this plugin, widget or via shortcode
+
+To receive calls you need to sign on the service in www.soydigital.com  
 
 
 Languages: English, Spanish.
@@ -22,6 +24,7 @@ Languages: English, Spanish.
 
 1. Upload `digital-rtc` folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
+the WebRTC button may not work well in all web browsers. WebRTC is particularly suitable for Chrome and Firefox
 
 
 
