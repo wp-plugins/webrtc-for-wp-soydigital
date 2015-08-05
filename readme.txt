@@ -30,8 +30,8 @@ the WebRTC button may not work well in all web browsers. WebRTC is particularly 
 
 == Screenshots ==
 
-1. /assets/screenshot-1.png
-2. /assets/screenshot-2.png
+1. Admin panel (png)
+2. Widget Section (png)
 
 == Changelog ==
 
